@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Build a $10K/mo AI Content Engine | AI Goldmine</title>
+  <meta name="description" content="The exact GPT-4o + Notion + Buffer stack that solo founders use to generate six-figure content businesses without hiring a single writer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .article { max-width: 780px; margin: 0 auto; }
+    .article__hero { padding: 140px 24px 60px; }
+    .article__body { padding: 0 24px 80px; }
+    .article__body h2 { font-family: var(--font-head); font-size: 1.6rem; font-weight: 900; margin: 48px 0 16px; color: var(--text); }
+    .article__body h3 { font-family: var(--font-head); font-size: 1.2rem; font-weight: 800; margin: 32px 0 12px; color: var(--gold); }
+    .article__body p { color: var(--muted); line-height: 1.9; margin-bottom: 20px; }
+    .article__body ul { color: var(--muted); padding-left: 20px; margin-bottom: 20px; line-height: 2; }
+    .article__body code { font-family: var(--font-mono); background: var(--card-bg); border: 1px solid var(--border); padding: 2px 8px; border-radius: 4px; font-size: 0.85em; color: var(--gold); }
+    .article__body pre { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; margin: 24px 0; overflow-x: auto; }
+    .article__body pre code { background: none; border: none; padding: 0; color: var(--accent2); font-size: 0.88rem; line-height: 1.8; }
+    .article__callout { background: rgba(255,215,0,0.06); border: 1px solid rgba(255,215,0,0.2); border-left: 4px solid var(--gold); border-radius: var(--radius); padding: 20px 24px; margin: 32px 0; }
+    .article__callout p { margin: 0; color: var(--text) !important; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__logo"><div class="nav__logo-icon">⚡</div>AI <span>Goldmine</span></div>
+    <ul class="nav__links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="index.html" class="active">Blog</a></li>
+      <li><a href="../pages/resources.html">Resources</a></li>
+      <li><a href="../pages/about.html">About</a></li>
+      <li><a href="../index.html#newsletter" class="nav__cta">Get Free Guide →</a></li>
+    </ul>
+    <div class="nav__hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <div class="article">
+    <header class="article__hero" style="background:var(--black);">
+      <span class="badge badge--gold">AI Strategy</span>
+      <h1 style="font-family:var(--font-head); font-size:clamp(2rem,4vw,3rem); font-weight:900; line-height:1.15; letter-spacing:-1.5px; margin:16px 0 20px;">
+        How to Build a <span class="text-gold">$10K/mo AI Content Engine</span> in 30 Days
+      </h1>
+      <div style="display:flex; align-items:center; gap:16px; color:var(--muted); font-size:0.88rem;">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <div class="blog-card__avatar">MV</div>
+          <span>M. VanderCook</span>
+        </div>
+        <span>·</span><span>June 10, 2025</span>
+        <span>·</span><span>8 min read</span>
+      </div>
+    </header>
+
+    <div class="article__body" style="background:var(--black);">
+      <p>Three solo founders. Zero employees. A combined $340K in annual revenue from content alone. What is their secret? A precisely engineered AI content engine that produces, distributes, and monetizes content at a scale that used to require a full editorial team.</p>
+
+      <p>This is not theory. These are the exact tools and workflows — battle-tested and revenue-verified.</p>
+
+      <div class="article__callout">
+        <p>⚡ <strong>TL;DR:</strong> GPT-4o generates content → Notion organizes → Buffer distributes → ConvertKit monetizes. The full loop runs in under 2 hours per week once set up.</p>
+      </div>
+
+      <h2>The Stack (What You Actually Need)</h2>
+      <ul>
+        <li><strong>GPT-4o / Claude 3.5 Sonnet</strong> — Content generation and ideation</li>
+        <li><strong>Notion</strong> — Content calendar and asset management</li>
+        <li><strong>Buffer / Hypefury</strong> — Social media scheduling and analytics</li>
+        <li><strong>ConvertKit</strong> — Email list monetization and automation</li>
+        <li><strong>Perplexity AI</strong> — Research and trend identification</li>
+        <li><strong>n8n.io</strong> — Gluing everything together automatically</li>
+      </ul>
+
+      <h2>Phase 1: Topic Mining (Week 1)</h2>
+      <p>The biggest mistake content creators make is guessing what their audience wants. The AI content engine starts with data, not hunches.</p>
+
+      <h3>The Perplexity Research Loop</h3>
+      <p>Every Monday, run this prompt in Perplexity AI with <code>Focus: Web</code> enabled:</p>
+
+      <pre><code>What are the top 10 questions entrepreneurs are asking about [YOUR NICHE]
+right now in 2025? Include questions from Reddit, Quora, LinkedIn, and Twitter.
+Format as: Question | Platform | Estimated Monthly Search Volume | Pain Score (1-10)</code></pre>
+
+      <p>This surfaces real, urgent questions your audience is actively searching for — feeding a week&apos;s worth of content briefs in minutes.</p>
+
+      <h2>Phase 2: Content Production (Week 2)</h2>
+      <p>With your topic list ready, the production workflow kicks in. Do not think of this as &quot;writing with AI&quot; — think of it as directing an editorial team.</p>
+
+      <h3>The 3-Layer Content System</h3>
+      <ul>
+        <li><strong>Layer 1 — Pillar Post:</strong> 2,500-word SEO article (GPT-4o)</li>
+        <li><strong>Layer 2 — Social Atoms:</strong> 10 LinkedIn posts distilled from the pillar</li>
+        <li><strong>Layer 3 — Email Digest:</strong> Weekly newsletter summary for your list</li>
+      </ul>
+
+      <h2>Phase 3: Distribution Automation (Week 3)</h2>
+      <p>Production without distribution is a hobby. The engine&apos;s real power is in automated distribution via n8n workflows that post, schedule, and track everything without manual intervention.</p>
+
+      <h2>Phase 4: Monetization (Week 4)</h2>
+      <p>Revenue follows attention. With a growing content footprint, monetization layers in naturally through affiliate partnerships, digital products, and newsletter sponsorships — all managed through ConvertKit automation sequences.</p>
+
+      <div class="article__callout">
+        <p>🔑 <strong>Key Insight:</strong> The founders hitting $10K/mo are not producing 10x more content — they are distributing each piece 10x more effectively using automation.</p>
+      </div>
+
+      <h2>Your 30-Day Action Plan</h2>
+      <ul>
+        <li>Days 1–7: Set up your Notion content calendar and run your first Perplexity research loop</li>
+        <li>Days 8–14: Produce your first 4 pillar posts and 40 social atoms</li>
+        <li>Days 15–21: Configure n8n automation and Buffer scheduling</li>
+        <li>Days 22–30: Launch ConvertKit welcome sequence and first monetization offer</li>
+      </ul>
+
+      <p>The engine does not happen overnight — but by Day 30, you will have a system that compounds. Month 2 is where the economics shift dramatically.</p>
+
+      <div style="margin-top:48px; text-align:center;">
+        <a href="../index.html#newsletter" class="btn btn--primary">
+          📬 Get the Full Automation Template Pack →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__bottom" style="border-top:none; padding-top:0;">
+        <span>© 2025 The AI Automation Goldmine. All rights reserved.</span>
+        <div class="footer__bottom-links">
+          <a href="../index.html">Home</a><a href="index.html">Blog</a><a href="#">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>
